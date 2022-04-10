@@ -4,6 +4,28 @@
   font-family:"Roboto", sans-serif;
 }
 
+/* Estilo Tooltip */
+
+.tooltip-inner {
+  background-color: rgba(var(--bs-info-rgb));
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: rgba(var(--bs-info-rgb));
+}
+
+.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: rgba(var(--bs-info-rgb));
+}
+
+.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: rgba(var(--bs-info-rgb));
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: rgba(var(--bs-info-rgb));
+}
+
 
 /* Nav */
 
