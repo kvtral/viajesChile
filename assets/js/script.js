@@ -6,7 +6,12 @@ $(document).ready(function () {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
   
-  
+
+$(window).scroll(function() {
+  if (("#navBar").offset().top > 50) {
+  $("#navBar").toggleClass("bg-dark");
+  }
+});
 
 });
 
