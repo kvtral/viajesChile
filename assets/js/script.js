@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+   $(window).scroll(function() {
+    if ($('#navBar').offset().top > 250) {
+        $('#navBar').addClass('bg-dark');
+    }  else {
+        $('#navBar').removeClass('bg-dark');
+    } 
+}); 
+
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
   );
@@ -6,12 +15,6 @@ $(document).ready(function () {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
   
-
-$(window).scroll(function() {
-  if (("#navBar").offset().top > 50) {
-  $("#navBar").toggleClass("bg-dark");
-  }
-});
 
 });
 
