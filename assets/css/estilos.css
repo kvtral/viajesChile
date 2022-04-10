@@ -14,8 +14,17 @@
 
 
 /* Footer */
+.brands{
+  text-align: center;
+}
 
 .brands a {
   color: #fff;
+  font-size: 1.5rem;
   text-decoration: none;
+  
+}
+
+.foot {
+  text-align: center;
 }
